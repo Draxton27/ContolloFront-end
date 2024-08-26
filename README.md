@@ -36,5 +36,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Back-end
 
-This is the link to the backend repository:
+This is the link to the back-end repository:
 https://github.com/Draxton27/ContolloBack-end
