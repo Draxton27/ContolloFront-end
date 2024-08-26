@@ -6,8 +6,10 @@ import "react-toastify/dist/ReactToastify.css";
 import Cookies from "js-cookie";
 
 const entry = {
+  id: "",
   email: "",
   password: "",
+  notes: []
 };
 
 export default function Login() {
@@ -88,7 +90,7 @@ export default function Login() {
 
       if (response.ok) {
         const data = await response.json();
-        Cookies.set('jwt', data.token, { secure: false, sameSite: 'strict' });  // Store the JWT in cookies
+        //Cookies.set('jwt', data.token, { secure: false, sameSite: 'strict' });  // Store the JWT in cookies
         navigate('/tasks');  // Redirect to tasks on successful login
       } else {
         const errorData = await response.json();
