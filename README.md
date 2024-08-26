@@ -19,6 +19,7 @@ Follow these steps to set up and run the project locally:
 First, clone the repository to your local machine using Git:
 
 git clone https://github.com/Draxton27/ContolloFront-end.git
+
 cd ContolloFront-end
 
 ### 2. Install dependencies  
